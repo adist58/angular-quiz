@@ -1,0 +1,12 @@
+<div class="container" [formGroup]="formGroup">
+  <div class="first-col">
+    <input formControlName="colOne" type="number" />
+  </div>
+  <div class="second-col">
+    <select formControlName="colMiddle">
+      <option value="p">isPrime</option>
+      <option value="f">isFibonacci</option>
+    </select>
+  </div>
+  <div class="last-col">{{ results }}</div>
+</div>

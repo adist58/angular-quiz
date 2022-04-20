@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    min-width: 600px;
+    height: 100vh;
+
+    .first-col {
+        width: 200px;
+    }
+    .second-col {
+        flex: 1 1 100px;
+    }
+
+    .last-col {
+        width: 300px;
+    }
+    .first-col,
+    .last-col,
+    .second-col {
+        border-right: 1px solid black;
+    }
+}
